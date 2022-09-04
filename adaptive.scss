@@ -1,0 +1,247 @@
+@import "variables";
+
+@media screen and (max-width: 620px) {
+        #price {
+                flex-direction: column;
+        }
+}
+
+@media screen and (max-width: 768px) {
+        body {
+                background: rgb(212, 147, 48);
+        }
+
+        .header {
+                max-height: 50px;
+                                
+                &__img {
+                        width: 85px;
+                        padding-right: 5px;
+                }
+
+                .nav {
+                        font-size: 12px;
+                        
+                        &__item {
+                        margin-left: 8px;
+                        
+                        }
+                } 
+        }
+
+        main { 
+                max-width: 650px;
+
+                .nickname {
+                        margin-top: 60px;
+                        margin-bottom: 40px;
+
+                        .banner {
+                                font-size: 10px;
+
+                                .btn {
+                                        font-size: 16px;
+                                }
+                        }
+                                
+                }
+
+                #function {
+                        margin: 0px 10px;
+                
+                        .container {
+                                display: flex;
+                                margin: 20px 5px;
+                                font-size: 8px;
+                                        
+                                .grid {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        padding-right: 30px;
+                                                
+                                        .icon {
+                                        width: 60px;
+                                        height: 60px;
+                                        }
+                                }
+                        }
+                }
+                
+                #work {
+                        padding: 30px;
+                        
+                        iframe {
+                                width: 100%;
+                                height: auto;
+                                min-height: 260px;
+                        }
+                }
+                
+
+                #price {
+                        margin: 0 auto;
+                        margin-bottom: 40px;
+                        
+                        .price-list {
+                                width: 200px;
+                                height: 300px; 
+                                background: #3d8330;
+
+                                .name {
+                                        font-size: 18px;
+                                        padding-top: 10px;
+                                        height: 25px;
+                                }
+                                        
+                                .article {
+                                        font-size: 14px;     
+                                }
+
+                                .art {
+                                        height: 125px;
+                                        color:#c5d0e6;
+                                        font-size: 14px; 
+                                }
+
+                                .buy {
+                                        width: 75px;
+                                        height: 35px;
+                                        background: rgb(54 128 226 / 82%);
+                                        cursor: pointer;
+                                        font-size: 26px;
+                                        color: #c9c92a;
+                                                
+
+                                }
+                        }        
+                }       
+        }
+        
+        footer {
+                font-size: 10px;
+        }
+}
+    
+
+
+@media screen and (max-width: 320px) {
+        body {
+                background: rgb(36 53 60);
+
+        }
+        .header {
+                max-height: 40px;
+                                
+                &__img {
+                        width: 75px;
+                        padding-right: 5px;
+                }
+
+                .nav {
+                        font-size: 10px;
+                        
+                        &__item {
+                        margin-left: 8px;
+                        
+                        }
+
+                } 
+        }
+
+        main { 
+                max-width: 280px;
+
+                .nickname {
+                        margin-top: 60px;
+                        margin-bottom: 40px;
+
+                        .banner {
+                                font-size: 10px;
+
+                                .btn {
+                                        font-size: 16px;
+                                }
+                        }
+                                
+                }
+                #function {
+                        margin: 0px 10px;
+                
+                        .container {
+                                display: flex;
+                                margin: 20px 5px;
+                                font-size: 8px;
+                                        
+                                .grid {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        padding-right: 30px;
+                                                
+                                        .icon {
+                                        width: 60px;
+                                        height: 60px;
+                                        }
+                                }
+                        }
+                }
+                
+                #work {
+                        padding: 10px;
+                        
+                        iframe {
+                                width: 100%;
+                                height: auto;
+                                min-height: min-content;
+                        }
+                }
+
+
+                #price {
+                        flex-direction: column;
+                        margin: 0 auto;
+                        margin-bottom: 40px;
+                        
+                        .price-list {
+                                width: 200px;
+                                height: 300px; 
+
+                                .name {
+                                        font-size: 18px;
+                                        padding-top: 10px;
+                                        height: 25px;
+                                }
+                                        
+                                .article {
+                                        font-size: 14px;     
+                                }
+
+                                .art {
+                                        height: 125px;
+                                        color:#c5d0e6;
+                                        font-size: 14px; 
+                                }
+
+                                .buy {
+                                        width: 75px;
+                                        height: 35px;
+                                        background: rgb(54 128 226 / 82%);
+                                        cursor: pointer;
+                                        font-size: 26px;
+                                        color: #c9c92a;
+                                                
+
+                                }
+                        }        
+                }       
+        }
+        
+        footer {
+                font-size: 10px;
+        }
+}
+
+
+
+
+
+
